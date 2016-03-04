@@ -19,8 +19,8 @@ func handler(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	fmt.Println("Listening on localhost:8080. Ctrl+C to exit")
+	fmt.Println("Listening on localhost:6833. Ctrl+C to exit")
 
 	http.HandleFunc("/", handler)
-	http.ListenAndServe(":8080", nil)
+	http.ListenAndServe(":6833", nil)
 }
