@@ -4,7 +4,7 @@ To read more about the project, please read the official [design plan](https://g
 
 ## Next steps
 
-- Agree on a communication protocol (refer to the mockup-response.json as an example)
+- Agree on a communication protocol (refer to the [mockup-response.json](mockup-response.json) as an example)
 - Establish mockup connectivity to the front end and the database service mockup
 
 ## Running the server
